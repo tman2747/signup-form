@@ -1,0 +1,120 @@
+/* Tristons css Reset */
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Optional defaults for better usability */
+  html,
+  body {
+    font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    color: white;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0;
+  
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: stretch;
+    min-height: 100vh;
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    height: 1.6rem;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  /*styles for this site*/
+.main-body{
+    background-color: rgb(44, 44, 44);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-card{
+    width: calc(100% *.2);
+    background-color: rgb(68, 194, 194);
+}
+
+.right-card{
+    color: black;
+    background-color: rgb(235, 235, 235);
+    width: calc(100% *.40);
+}
+
+.signup{
+    background-color: white;
+    display: flex;
+    min-height: 200px;
+}
+
+.createAccount{
+    background-color: green;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    font-weight: 500;
+}
+
+a{
+    color: green;
+    font-weight: bold;
+}
+
+fieldset{
+    border: 0;
+    min-width: 100%;
+}
+form{
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 80px;
+}
+
+
+.title{
+    background-color: rgba(0, 0, 0, 0.384);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infoTop{
+    max-width: 53ch;
+    padding-top: calc(100% * .1); /* probably not the best*/
+}
