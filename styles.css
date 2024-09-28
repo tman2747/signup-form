@@ -67,23 +67,28 @@
 }
 
 .left-card{
-    width: calc(100% *.2);
+    width: calc(100% *.26);
     background-color: rgb(68, 194, 194);
 }
 
 .right-card{
     color: black;
     background-color: rgb(235, 235, 235);
-    width: calc(100% *.40);
+    width: calc(100% *.44);
 }
 
 .signup{
     background-color: white;
     display: flex;
     min-height: 200px;
+    padding: 0px 0px;
 }
 
 .createAccount{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.createAccountButton{
     background-color: green;
     border-radius: 10px;
     height: 45px;
@@ -100,13 +105,21 @@ fieldset{
     border: 0;
     min-width: 100%;
 }
+legend{
+    padding: 0px 30px;
+}
 form{
-    padding: 0px 10px;
+    display: flex;
+    padding: 0px 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 80px;
+    margin-right: 200px;
 }
-
+form div{
+    flex: 1 1 calc(50% - 200px);
+    margin-right: 20px;
+}
 
 .title{
     background-color: rgba(0, 0, 0, 0.384);
@@ -115,6 +128,11 @@ form{
 }
 
 .infoTop{
-    max-width: 53ch;
+    max-width: 54ch;
     padding-top: calc(100% * .1); /* probably not the best*/
+    padding-left: 30px; /*matches the flow of the document from above styles*/
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.6rem;
 }
+
