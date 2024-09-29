@@ -68,7 +68,8 @@
 
 .left-card{
     width: calc(100% *.26);
-    background-color: rgb(68, 194, 194);
+    background:url("halie-west-25xggax4bSA-unsplash.jpg") ;
+    background-size: cover;
 }
 
 .right-card{
@@ -89,7 +90,7 @@
     padding-top: 30px;
 }
 .createAccountButton{
-    background-color: green;
+    background-color: #596D48;
     border-radius: 10px;
     height: 45px;
     color: white;
@@ -97,7 +98,7 @@
 }
 
 a{
-    color: green;
+    color: #596D48;
     font-weight: bold;
 }
 
@@ -116,6 +117,11 @@ form{
     gap: 10px 80px;
     margin-right: 200px;
 }
+
+form label{
+  font-weight: 500;
+  color:#1d1d1d;
+}
 form div{
     flex: 1 1 calc(50% - 200px);
     margin-right: 20px;
@@ -124,7 +130,8 @@ form div{
 .title{
     background-color: rgba(0, 0, 0, 0.384);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 200px;
+    font-size: 40px;
 }
 
 .infoTop{
