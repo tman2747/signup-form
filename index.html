@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <title>Sign up!</title>
 </head>
 
 <body>
     <div class="main-body">
         <div class="left-card">
-            <div class="title"> <img src="images/odin-lined.png" alt="odin Image" height="150px">ODIN</div>
+            <div class="title"><img src="images/odin-lined.png" alt="odin image" height="135px"><h1>Odin</h1></div>
         </div>
         <div class="right-card">
             <div class="infoTop">
@@ -31,27 +31,27 @@
                     <form action="#" method="post">
                         <div>
                             <label for="firstName">First Name</label><br>
-                            <input type="text" name="firstName" id="firstName"><br>
+                            <input type="text" name="firstName" id="firstName" required><br>
                         </div>
                         <div>
                             <label for="lastName">Last Name</label><br>
-                            <input type="text" name="lastName" id="lastName"><br>
+                            <input type="text" name="lastName" id="lastName" required><br>
                         </div>
                         <div>
                             <label for="email">Email</label><br>
-                            <input type="email" name="email" id="email"><br>
+                            <input type="email" name="email" id="email" required><br>
                         </div>
                         <div>
                             <label for="phone">Phone Number</label><br>
-                            <input type="tel" name="phone" id="phone"><br>
+                            <input type="tel" name="phone" id="phone" maxlength="10" required><br>
                         </div>
                         <div>
                             <label for="password">Password *</label><br>
-                            <input type="password" name="password" id="password"><br>
+                            <input type="password" name="password" id="password" required><br>
                         </div>
                         <div>
                             <label for="passwordConfirm">Confirm Password</label><br>
-                            <input type="password" name="passwordConfirm" id="passwordConfirm"><br>
+                            <input type="password" name="passwordConfirm" id="passwordConfirm" required minlength="8"><br>
                         </div>
             </div>
             <div class="createAccount">
