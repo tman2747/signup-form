@@ -154,3 +154,10 @@ form div{
     font-size: 24px;
     line-height: 1.6rem;
 }
+
+#PasswordTEXT{
+  font-size: 12px;
+  opacity: 0;
+  color: red;
+  
+}
