@@ -67,7 +67,7 @@
 }
 
 .left-card{
-    width: calc(100% *.26);
+    width: calc(100% *.30);
     background:url("/images/halie-west-25xggax4bSA-unsplash.jpg") ;
     background-size: cover;
     font-family: "NorseBold",sans-serif;
@@ -81,7 +81,7 @@
 .right-card{
     color: black;
     background-color: rgb(235, 235, 235);
-    width: calc(100% *.44);
+    width: calc(100% *.45);
 }
 
 .signup{
@@ -144,6 +144,7 @@ form div{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 180px;
 }
 
 .infoTop{
