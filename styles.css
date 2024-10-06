@@ -104,11 +104,21 @@
     font-weight: 500;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: none;
+    cursor:pointer;
+}
+
+.createAccountButton:hover{
+  background-color: #638546;
 }
 
 a{
     color: #596D48;
     font-weight: bold;
+}
+
+a:hover{
+  color: #638546;
+
 }
 
 fieldset{
@@ -161,4 +171,14 @@ form div{
   opacity: 0;
   color: red;
   
+}
+
+input{
+  border: #757575 1px solid;
+}
+
+input:focus{
+  border: #0077ff 1px solid;
+  outline: none;
+  box-shadow: #c1c1c1 2px 4px 5px ;
 }
